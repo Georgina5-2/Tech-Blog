@@ -1,0 +1,146 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+body {    
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card-header:hover {
+    color: #1b4965;
+}
+
+nav a {
+    color: white
+}
+
+nav a:hover {
+    color: #cae9ff;
+    transform: scale(1.05);
+}
+
+.new-post-btn {
+    color: #cae9ff
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    color: white;
+}
+
+header {
+    background-image: url('../images/shahadat-rahman-BfrQnKBulYQ-unsplash.jpg');
+    height: 95px;
+    background-size: cover;
+    position: relative;
+    border-bottom: solid 2px black;
+    box-shadow: inset 0px 0px 20px black;
+}
+
+header img{
+    filter: brightness(0.6)
+}
+
+.bold{ 
+    font-weight: bolder;
+}
+.card-header {
+    font-weight: bolder;
+    color: #1b4965;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.header-post {
+    cursor:auto
+}
+
+.login {
+    margin:auto;
+    border: lightgray solid thin;
+    text-align: center;
+    min-height: 75%;
+    width: 50%;
+    line-height: 2rem;
+    padding: 35px;
+}
+
+.btn {
+    background-color: #1b4965;
+    color: #cae9ff;
+    font-weight: bold;
+}
+
+.btn:hover{
+    color: #1b4965;
+    background-color: #cae9ff;
+}
+
+.login a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #1b4965
+}
+
+.login h2 { 
+    color: #1b4965
+}
+
+.new-post-form,
+.new-comment {
+    margin: auto;
+    border-top: lightgray solid thin;
+    border-bottom: lightgray solid thin;
+    text-align: left;
+    min-height: 75%;
+    width: 80%;
+    line-height: 2rem;
+    padding: 35px;
+}
+
+.new-post-form input,
+.comment-input {
+    width: 100%;
+}
+
+.cursive {
+    font-style: italic;
+}
+
+.comment {
+    background-color: #b5e2fa;
+    font-size: 14px;
+}
+
+#logout {
+    background-color: transparent;
+    color: white;
+    border: none
+}
+
+#logout:hover {
+    color: #cae9ff;
+    transform: scale(1.05);
+}
+
+.post { 
+    background-color: #b5e2fa;
+}
+
+.post a{
+    color: #1b4965;
+}

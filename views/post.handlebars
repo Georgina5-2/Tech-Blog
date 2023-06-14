@@ -1,0 +1,30 @@
+<div class="card p-4">
+    <div class="card-header header-post">{{post.title}}</div>
+        <div class="card-body">
+            <p>{{post.content}}</p>
+        </div>
+        <div class="card-footer text-muted">
+            Posted by {{post.user.username}} on {{format_date post.date_created}}
+        </div>
+    </div>
+    
+    {{!-- IF logged in, allow to enter comment  --}}
+    {{#if loggedIn}}
+        <form class="form new-comment p-6 m-4 col-6" data-id="{{post.id}}">
+            <div class="form-group">
+                <label for="comment my-3">Add a comment:</label><br>
+                <input class="comment-input my-1" type="text"> 
+            </div>
+            <button class="btn my-1" type="submit">Submit</button>
+        </form>
+    {{/if}}
+
+    {{#if post.comments}}
+        {{> comments }}
+    {{/if}}
+    <br>
+</div>
+
+    {{#if loggedIn}}
+    <script src="/js/new-comment.js"></script>   
+    {{/if}}

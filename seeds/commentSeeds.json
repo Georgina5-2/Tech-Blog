@@ -1,0 +1,21 @@
+[
+    {
+      "text_comment": "I just learned that in class!",
+      "date_created": "April 12, 2023 17:00:00",
+      "user_id": 2,
+      "post_id": 1
+    },
+    {
+      "text_comment": "MVC uses a structure with views, models, and controllers",
+      "date_created": "April 12, 2023 17:00:00",
+      "user_id": 3,
+      "post_id": 1
+    },
+    {
+        "text_comment": "I can help you via zoom tonight, let me know if you can",
+        "date_created": "April 15, 2023 17:00:00",
+        "user_id": 1,
+        "post_id": 3
+    }
+  ]
+  

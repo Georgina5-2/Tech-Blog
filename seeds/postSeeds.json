@@ -1,0 +1,21 @@
+[
+    {
+      "title": "MVC",
+      "content": "Use this paradigm for separation of concerns. MVC (Model-View-Controller) is a pattern in software design commonly used to implement user interfaces, data, and controlling logic.",
+      "date_created": "April 12, 2023 17:00:00",
+      "user_id": 1
+    },
+    {
+        "title": "View Layer",
+        "content": "I'm learning to use handlebars as template engine. Handlebars is largely compatible with Mustache templates. Handlebars compiles templates into JavaScript functions",
+        "date_created": "April 13, 2023 7:00:00",
+        "user_id": 2
+    },
+    {
+        "title": "Need help with Sequelize",
+        "content": "Can someone explain how to set up my update routes?",
+        "date_created": "April 14, 2023 11:00:00",
+        "user_id": 3
+    }
+  ]
+  

@@ -42,3 +42,16 @@
 * THEN I am signed out of the site
 * WHEN I am idle on the site for more than a set time
 * THEN I am able to view comments but I am prompted to log in again before I can add, update, or delete comments
+
+# Getting Started
+## Dependencies
+## Prerequisites
+### Browsers - Chrome, Safari, Mozilla Firefox
+* Operating Systems - Windows and Mac
+* Version Control Systems - Git and Github
+* Coding Platform - Microsoft Visual Studio Code *Programming languages - HTML *Stylesheets - CSS *Script-file - Javascript
+* Commands - Git and MS-DOS commands
+* Server - node.js, express.js
+* Database -MongoDB
+* ORM-Sequelizer
+* View- Handlebars.js

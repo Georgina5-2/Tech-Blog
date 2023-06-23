@@ -3,7 +3,7 @@ require('dotenv').config();
 
 let sequelize;
 
-console.log('DB_NAME', process.env.DB_NAME);
+
 
     sequelize = new Sequelize (
         process.env.DB_NAME,

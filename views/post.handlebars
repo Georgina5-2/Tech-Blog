@@ -20,7 +20,9 @@
     {{/if}}
 
     {{#if post.comments}}
-        {{> comments }}
+    {{#each post.comments as |comment|}}
+        {{> comment }}
+    {{/each}}
     {{/if}}
     <br>
 </div>

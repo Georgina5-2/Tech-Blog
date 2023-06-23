@@ -1,0 +1,11 @@
+ <div class="card my-3">
+       {{!-- <a href="/post/{{post.id}}" class="card-header">{{post.title}}</a> --}}
+
+        <div class="card-body">
+            <p>{{text_comment}}</p>
+            
+        </div>
+        <div class="card-footer text-muted">
+            Posted by {{user.username}} on {{format_date date_created}}
+        </div>
+    </div>

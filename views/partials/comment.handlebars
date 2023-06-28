@@ -1,11 +1,12 @@
- <div class="card my-3">
-       {{!-- <a href="/post/{{post.id}}" class="card-header">{{post.title}}</a> --}}
-
-        <div class="card-body">
-            <p>{{text_comment}}</p>
-            
+ <div class="dashboard">
+    <h2 class="m-4">Your Dashboard</h2>
+    {{!-- existing user posts here --}}
+    {{#if posts.length}}
+        {{#each posts as |post|}}
+        <div class="card-body post mx-4 my-2">
+            <a href="/edit/{{post.id}}"><span class="bold">{{post.title}}</span>, {{format_date post.date_created}}</a>
         </div>
-        <div class="card-footer text-muted">
-            Posted by {{user.username}} on {{format_date date_created}}
-        </div>
-    </div>
+        {{/each}}
+    {{/if}}
+    <button class="btn m-3" type="submit"><a class= "new-post-btn" href="/new-post">+ New Post</a></button>
+</div>
